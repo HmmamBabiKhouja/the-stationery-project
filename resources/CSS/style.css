@@ -1,0 +1,408 @@
+/*cool blue:#3498db*/
+
+/*-------------------------------
+PAGE-SETUP
+--------------------------------*/
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+}
+
+*:focus{
+    outline: none;
+}
+
+html{
+    background-color: #fff;
+    color: #555555;
+    font-family:"Cairo","Arial";
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+/*-------------------------------
+REUSABLE-STYLE
+--------------------------------*/
+
+.head2{
+    font-weight: 300;
+    font-size: 180%;
+}
+
+.head3{
+    font-weight: 300;
+    font-size: 150%;
+}
+.with-after-line{
+    text-align: center;
+}
+
+.with-after-line:after{
+    content: "";
+    width: 130px;
+    height: 2px;
+    background-color: #3498db;
+    display: block;
+    margin: 30px auto;
+}
+
+.full-height{
+    height: 100vh;
+}
+
+/*LINKS-BARS*/
+
+.nav-bar-list{
+    margin-top: 55px;
+}
+
+.nav-bar-list,
+.footer-icons-list{
+    list-style: none;
+}
+
+.nav-bar-list li,
+.footer-icons-list li{
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 90%;
+}
+
+.nav-bar-links{
+    color: #fff;
+    transition: 0.2s;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 8px;
+}
+
+.nav-bar-links:hover{
+    border-bottom: 2px solid #3498db;
+    
+}
+
+/*BUTTONS*/
+
+.btn{
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+    border:1px solid #3498db;
+}
+
+.btn-ghost{
+    margin-left: 15px;
+    color: #3498db;
+}
+
+.btn-full{
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn:hover{
+  background-color: #1f74ac;
+  border:1px solid #1f74ac;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/*-------------------------------
+HEADER
+--------------------------------*/
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/plush-design-studio-676630-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    width: 85%;/*this needs to be altered when you make a responsive webpage*/
+    display: flex;
+    justify-content: space-between;
+}
+
+/*LOGO*/
+.nav-logo{
+    margin-top: 20px;
+}
+
+.nav-logo-design{
+    width: 95px;
+    height: auto;
+}
+
+.nav-logo-text{
+    color: #fff;
+    font-weight: 700;
+    font-size:120%; 
+    text-align:center;
+    transform: translate(2%,0);
+    margin-top: 10px;
+}
+
+/*HEADINGS*/
+
+.header-welcome-container{
+    display: flex;
+    justify-content: center;
+    height: 800px;/*this needs to be altered when you make a responsive webpage*/
+}
+
+.header-welcome{
+    height: 400px;/*this needs to be altered when you make a responsive webpage*/
+    transform: translate(15%,0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title-header{
+    margin-top: 0;    
+    margin-bottom: 30px;
+    color: #fff;
+    font: size 200%;
+    font-weight:300;
+}
+
+/*-------------------------------
+SECTION-FEATURES
+--------------------------------*/
+
+.section-pictures{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-image-block{
+    display: flex;
+    width: 100%;
+}
+
+.showcase-figure{
+    width:100%;
+    overflow: hidden;
+    background: #000;
+    margin: 0;
+}
+
+.showcase-img{
+    width: 100%;
+    height: auto;    
+    transform: scale(1.15);
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.showcase-img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+/*-------------------------------
+SECTION-INFO
+--------------------------------*/
+
+.info-section-head{
+padding-top: 80px;
+}
+
+/*HEAD*/
+
+.section-info-header:after{
+    content: "";
+    width: 130px;
+    height: 2px;
+    background-color: #3498db;
+    display: block;
+    margin: 30px auto;
+}
+
+.section-info-para{
+    font-size:125%;
+    text-align: center;
+}
+
+/*FEATURES-BOXES*/
+
+.info-boxes-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.box{
+    margin-top: 25px;
+    padding: 30px;
+
+}
+
+.box-img{
+    width: 20%;
+    height: auto;
+}
+
+/*-------------------------------
+FORM-FEATURES
+--------------------------------*/
+
+.form-section{
+    padding: 80px 0;
+}
+
+.form-section-banner{
+    margin: 0 auto;
+}
+
+.form-section-head{
+    margin-bottom: 30px;
+}
+
+.form-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 12px;
+    width:100% ;
+}
+
+.question{
+    flex: 1;
+}
+
+.answer{
+    flex:2;
+    width: 100%;
+}
+
+.user-input{
+    width:100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 100%;
+  
+}
+
+.text-block{
+    padding: 1px 0;
+}
+
+.selection{
+    padding:0.2px 0;
+}
+
+.feed-back{
+    height: 100px;
+    width: 100%;
+}
+
+.check-box-block{
+    padding: 9px 0;
+    margin-bottom: 15px 0;
+}
+
+/*-------------------------------
+FOOTER
+--------------------------------*/
+
+.footer{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    overflow: hidden;
+}
+
+/*FOOTER-INFO*/
+
+.footer-info{
+    padding:50px 70px 70px 70px;
+}
+
+.find-us-heading{
+    color: #fff;
+    padding-bottom:25px; 
+}
+
+.text-info{
+    padding-bottom:7px;
+    color: #fff; 
+    font-size: 85%;
+}
+
+
+.text-info-question{
+    padding-left: 3px;
+}
+
+.text-info-answer{
+    padding-right: 3px; 
+}
+
+/*FOOTER-ICONS*/
+
+.email-logo-icon,
+.locate-logo-icon,
+.call-logo-icon,
+.whatsapp-logo-icon,
+.facebook-logo-icon,
+.twitter-logo-icon{
+    color: #888;
+    transition: 0.3s;
+}
+
+.facebook-logo-icon:hover{
+    color: #3b5998;
+}
+
+.whatsapp-logo-icon:hover{
+    color: #4dc247;
+}
+
+.twitter-logo-icon:hover{
+    color: #55acee;
+}
+
+.call-logo-icon:hover{
+    color: #ddd;
+}
+
+.locate-logo-icon:hover{
+    color: #f1c40f;
+}
+
+.email-logo-icon:hover{
+    color: #dd4b39;
+}
+
