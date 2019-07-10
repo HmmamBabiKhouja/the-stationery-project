@@ -63,15 +63,14 @@ REUSABLE-STYLE
     display:flex;
 }
 
-.footer-icons-list{
+.footer-bar-list{
     list-style: none;
 }
 
-.nav-bar-list li,
-.footer-icons-list li{
+.nav-bar-links,
+.footer-bar-links{
     display: inline-block;
-    margin-left: 35px;
-    font-size: 90%;
+    margin-left: 20px;
 }
 
 .nav-bar-links{
@@ -80,8 +79,13 @@ REUSABLE-STYLE
     text-decoration: none;
     border-bottom: 2px solid transparent;
     padding: 8px;
-    
+    font-size: 75%;
 }
+
+.footer-bar-links{
+    font-size: 90%; /*most probably it will be like nav-bar-links font size */
+}
+
 
 /*DROPDOWN MENU*/
 
@@ -162,28 +166,42 @@ HEADER
     background-position: center;
 }
 
-.nav-container{
+.nav{
     display: flex;
-    justify-content: center;
+    flex-direction:column; 
 }
 
-.nav{
-    width: 85%;/*this needs to be altered when you make a responsive webpage*/
+.logo-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.search-bar{
+    flex: 2;
+}
+
+.nav-container{
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
 
 /*LOGO*/
-.nav-logo{
+.logo{
     margin-top: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.nav-logo-design{
+.logo-design{
     width: 95px;
     height: auto;
 }
 
-.nav-logo-text{
+.logo-text{
     color: #fff;
     font-weight: 700;
     font-size:120%; 
@@ -202,7 +220,7 @@ HEADER
 
 .header-welcome{
     height: 400px;/*this needs to be altered when you make a responsive webpage*/
-    transform: translate(15%,0);
+    transform: translate(15%,20%);
     display: flex;
     flex-direction: column;
     justify-content: center;
