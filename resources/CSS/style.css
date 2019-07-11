@@ -174,21 +174,21 @@ HEADER
     justify-content: center;
 }
 
-.logo-container{
+.upper-nav-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
 }
 
-.nav-container{
+.down-nav-container{
     width: 90%;
     display: flex;
     justify-content: space-between;
 }
 
 /*LOGO*/
-.logo{
+.logo-container{
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -197,29 +197,31 @@ HEADER
 }
 
 .logo-design{
-    width: 95px;
+    width: 3rem;
     height: auto;
 }
 
 .logo-text{
     color: #fff;
     font-weight: 700;
-    font-size:120%; 
+    font-size:100%; 
     text-align:center;
-    transform: translate(2%,0);
+    transform: translate(0,0);
     margin-top: 10px;
 }
 
 /*SEARCH-BAR*/
 
 .search-bar-container{
-    width: 50%;
-    height: 130%;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.search-form{
-    width: 100%;
-    height: 100%;
+.search-form{/*to control the search bar size edit this */
+    width: 70%;
+    height: 85%;
 }
 
 .search-bar{
@@ -227,22 +229,27 @@ HEADER
 }
 
 .search-bar-text{
-    width: 90%;
-}
-
-.search-bar-btn{
-    width:10%;
-}
-
-.search-btn{
-    height: 100%;
-    border-radius: 5px 0 0 5px ;
+    width: 90%; /*width here is just to devide the parent */
 }
 
 .search-input{
+    height: 100%;
+    width:100%;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+}
+
+.search-bar-btn{
+    width: 10%;/*width here is just to devide the parent */
+}
+
+.search-btn{
     width:100%;
     height: 100%;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px 0 0 5px ;
+    align-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 
