@@ -46,7 +46,7 @@ REUSABLE-STYLE
     height: 2px;
     background-color: #3498db;
     display: block;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .full-height{
@@ -57,11 +57,10 @@ REUSABLE-STYLE
 
 .nav-bar-list{
     margin-top: 55px;
+    display:flex;
+    justify-content: space-between;
 }
 
-.nav-bar-list{
-    display:flex;
-}
 
 .footer-bar-list{
     list-style: none;
@@ -70,7 +69,7 @@ REUSABLE-STYLE
 .nav-bar-links,
 .footer-bar-links{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .nav-bar-links{
@@ -78,14 +77,12 @@ REUSABLE-STYLE
     transition: 0.2s;
     text-decoration: none;
     border-bottom: 2px solid transparent;
-    padding: 8px;
     font-size: 75%;
 }
 
 .footer-bar-links{
     font-size: 90%; /*most probably it will be like nav-bar-links font size */
 }
-
 
 /*DROPDOWN MENU*/
 
@@ -101,18 +98,17 @@ REUSABLE-STYLE
     cursor: pointer;
     position: relative;
     z-index: 2;
+    /* border: 1px solid orange; */
 }
 
 .dorpdown-parent:hover .dropdown-list{
     z-index: 1;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
-    
     padding-top: 60px;
     position: absolute; 
     top: -20px;
-    right: -30px; 
+    right: 0px; 
 }
 
 .dropdown-list{
@@ -120,10 +116,19 @@ REUSABLE-STYLE
 }
 
 .dropdown-list > li{
-    border-bottom: 2px solid #3498db;
-    list-style: none;
-    padding: 0 40px 10px 10px;
-    margin: 10px;
+    /* border: 1px solid orange; */
+    /* the orange border thing is to fix the dropdown list position*/
+    list-style: none; 
+    margin:0 auto;
+}
+
+.dropdown-list > li:after{
+    content:"";
+    width: 70px;
+    height: 2px;
+    background-color: #3498db;
+    display: block;
+    margin: 5px auto;
 }
 
 .dropdown-list > li:last-of-type{
@@ -182,9 +187,9 @@ HEADER
 }
 
 .down-nav-container{
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /*LOGO*/
