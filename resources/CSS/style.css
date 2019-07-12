@@ -119,6 +119,7 @@ HEADER
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/plush-design-studio-676630-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed
 }
 
 .nav-container{

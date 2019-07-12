@@ -1,0 +1,16 @@
+/*pc devices with pixles between 1024 and 1199 */
+@media only screen and (max-width:1200px){
+
+}
+/*big tablets with pixles between 768 and 1023 */
+@media only screen and (max-width:1023px){
+
+}
+/*big phones and small tablets (or on a portrait mode) with pixles between 480 and 767 */
+@media only screen and (max-width:767px){
+
+}
+/*small phones with pixles lower than 480 */
+@media only screen and (max-width:480px){
+
+}
