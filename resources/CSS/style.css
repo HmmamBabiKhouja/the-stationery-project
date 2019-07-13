@@ -40,6 +40,7 @@ REUSABLE-STYLE
     text-align: center;
 }
 
+.section-info-header:after,
 .with-after-line:after{
     content: "";
     width: 130px;
@@ -71,6 +72,11 @@ REUSABLE-STYLE
     font-size: 90%;
 }
 
+.nav-bar-list li:last-child,
+.footer-icons-list li:last-child{
+    margin-left: 0;
+}
+
 .nav-bar-links{
     color: #fff;
     transition: 0.2s;
@@ -81,7 +87,6 @@ REUSABLE-STYLE
 
 .nav-bar-links:hover{
     border-bottom: 2px solid #3498db;
-    
 }
 
 /*BUTTONS*/
@@ -152,28 +157,25 @@ HEADER
     margin-top: 10px;
 }
 
-/*HEADINGS*/
+/*HEADER*/
 
 .header-welcome-container{
     display: flex;
     justify-content: center;
-    height: 800px;/*this needs to be altered when you make a responsive webpage*/
 }
 
 .header-welcome{
-    height: 400px;/*this needs to be altered when you make a responsive webpage*/
-    transform: translate(15%,0);
+    transform: translate(25%,135%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .title-header{
     margin-top: 0;    
     margin-bottom: 30px;
     color: #fff;
-    font: size 200%;
+    font-size:200%;
     font-weight:300;
 }
 
@@ -222,15 +224,6 @@ padding-top: 80px;
 
 /*HEAD*/
 
-.section-info-header:after{
-    content: "";
-    width: 130px;
-    height: 2px;
-    background-color: #3498db;
-    display: block;
-    margin: 30px auto;
-}
-
 .section-info-para{
     font-size:125%;
     text-align: center;
@@ -256,8 +249,12 @@ padding-top: 80px;
 
 }
 
+.box-header{
+    padding: 10px 0;
+}
+
 .box-img{
-    width: 20%;
+    width: 25%;
     height: auto;
 }
 
@@ -266,7 +263,7 @@ FORM-FEATURES
 --------------------------------*/
 
 .form-section{
-    padding: 80px 0;
+    padding-top: 80px ;
 }
 
 .form-section-banner{
@@ -278,7 +275,7 @@ FORM-FEATURES
 }
 
 .form-container{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -288,7 +285,7 @@ FORM-FEATURES
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     width:100% ;
 }
 
@@ -306,7 +303,6 @@ FORM-FEATURES
     border-radius: 3px;
     border: 1px solid #ccc;
     height: 100%;
-  
 }
 
 .text-block{
@@ -373,14 +369,10 @@ FOOTER
 
 /*FOOTER-ICONS*/
 
-.email-logo-icon,
-.locate-logo-icon,
-.call-logo-icon,
-.whatsapp-logo-icon,
-.facebook-logo-icon,
-.instagram-logo-icon{
+.social-icon{
     color: #888;
     transition: 0.3s;
+    font-size: 200%;
 }
 
 .facebook-logo-icon:hover{
