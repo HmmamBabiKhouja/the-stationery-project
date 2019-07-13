@@ -133,7 +133,7 @@ HEADER
 }
 
 .nav{
-    width: 85%;/*this needs to be altered when you make a responsive webpage*/
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -144,14 +144,14 @@ HEADER
 }
 
 .nav-logo-design{
-    width: 95px;
+    width: 85px;
     height: auto;
 }
 
 .nav-logo-text{
     color: #fff;
     font-weight: 700;
-    font-size:120%; 
+    font-size:100%; 
     text-align:center;
     transform: translate(2%,0);
     margin-top: 10px;
@@ -317,7 +317,7 @@ FOOTER
 
 .footer{
     background-color: #333;
-    display: flex;
+	display: flex;
     justify-content: center;
 }
 
@@ -332,7 +332,7 @@ FOOTER
 /*FOOTER-INFO*/
 
 .footer-info{
-    padding:55px 0 30px 0;
+    padding:45px 0 30px 0;
 }
 
 .find-us-heading{
