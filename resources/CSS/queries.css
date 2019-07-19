@@ -1,3 +1,139 @@
-@media only screen and (max-width:1200){
+
+/*between 1200 and 1024*/
+@media only screen and (max-width:1200px){
+    .h2-with-after-line{
+        padding-top: 45px;
+    }
+
+    .box{
+        padding: 40px 0 20px 0;
+    }
+
+}
+
+@media only screen and (max-width:1023px){
+
+    .logo-design{
+        width: 80px;
+        height: auto;
+    }
     
+    .logo-text{
+        font-size:90%; 
+    }
+
+    .header-welcome{
+        transform: translate(10%,135%);
+    }
+
+    .h2-with-after-line{
+        padding-top: 35px;
+    }
+
+    .h2-with-after-line:after{
+        margin: 25px auto;
+    }
+
+    .nav-bar-list li,
+    .footer-icons-list li{
+        display: inline-block;
+        font-size: 95%;
+    }
+
+    .section-info{
+        height: auto; /*edit this when customer supply you with content */
+    }
+
+    .section-info-para{
+        font-size:105%;
+        text-align: center;
+    }
+
+    .boxes{
+        width: 95%;
+    }
+
+    .box{
+        padding-top: 30px;
+        width: 23%;
+    }   
+    
+    .form-container{
+        width: 85%;
+    }
+
+    .footer-container{
+        width:95%;
+    }
+    
+    .head3{
+        font-weight: 300;
+        font-size: 140%;
+    }
+    
+    .text-info{
+        font-size: 80%
+    }
+    
+    .social-icon{
+        font-size: 170%;
+    }
+}
+
+@media only screen and (max-width:767px){
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    .nav{
+        width:85% ;
+    }
+    
+    .logo-design{
+        width: 75px;
+        height: auto;
+    }
+
+    .logo-text{
+        font-size:90%; 
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .nav-bar-list{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        left: 0;
+        top: 0;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: 0.8s;
+        width: 50%;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+        /* background: #a44343; */
+
+    }
+
+    .burger-menu{
+        display: block;
+    }
+
+    .section-info{
+        height: auto; /*edit this when customer supply you with content */
+    }
+
+}
+
+.burger-menu-active{
+    transform: translateX(0%);/*when the burger menu is clicked the .burger-menu-active will be activated and the .nav-bar-list moves 100% from right to left to make the menu */
+}
+
+@media only screen and (max-width:479px){
+
 }

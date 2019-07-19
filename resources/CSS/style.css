@@ -1,5 +1,5 @@
 /*cool blue:#3498db*/
-
+/* edit all item with <!> sign*/
 /*-------------------------------
 PAGE-SETUP
 --------------------------------*/
@@ -30,15 +30,16 @@ REUSABLE-STYLE
 .head2{
     font-weight: 300;
     font-size: 180%;
-    padding-top: 60px;
 }
 
 .head3{
     font-weight: 300;
     font-size: 150%;
 }
+
 .h2-with-after-line{
     text-align: center;
+    padding-top: 60px;
 }
 
 .h2-with-after-line:after{
@@ -54,11 +55,28 @@ REUSABLE-STYLE
     height: 100vh;
 }
 
-/*LINKS-BARS*/
+/*LOGO*/
 
-.nav-bar-list{
-    margin-top: 70px;
+.logo{
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
 }
+
+.logo-design{
+    width: 85px;
+    height: auto;
+}
+
+.logo-text{
+    color: #fff;
+    font-weight: 700;
+    text-align:center;
+    margin-top: 10px;
+    font-size: 100%;
+}
+
+/*LINKS-BARS*/
 
 .nav-bar-list,
 .footer-icons-list{
@@ -74,7 +92,7 @@ REUSABLE-STYLE
 
 .nav-bar-list li:last-child,
 .footer-icons-list li:last-child{
-    margin-left: 0;
+    margin-left:0;
 }
 
 .nav-bar-links{
@@ -110,15 +128,46 @@ REUSABLE-STYLE
 }
 
 .btn:hover{
-  background-color: #1f74ac;
-  border:1px solid #1f74ac;
-  color: #fff;
-  transition: 0.3s;
+    background-color: #1f74ac;
+    border:1px solid #1f74ac;
+    color: #fff;
+    transition: 0.3s;
 }
 
 /*-------------------------------
 HEADER
 --------------------------------*/
+
+/*BURGER*/
+.burger-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.burger-line{
+    background:#fff;
+    height: 4px;
+    width: 32px;
+    margin: 7px;
+}
+
+/*NAV*/
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    padding-top: 30px;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+}
+
+
+/*HEADER-PAGE*/
 
 .home{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/plush-design-studio-676630-unsplash.jpg");
@@ -127,45 +176,13 @@ HEADER
     background-attachment: fixed
 }
 
-.nav-container{
-    display: flex;
-    justify-content: center;
-}
-
-.nav{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-}
-
-/*LOGO*/
-.nav-logo{
-    margin-top: 35px;
-}
-
-.nav-logo-design{
-    width: 85px;
-    height: auto;
-}
-
-.nav-logo-text{
-    color: #fff;
-    font-weight: 700;
-    font-size:100%; 
-    text-align:center;
-    transform: translate(2%,0);
-    margin-top: 10px;
-}
-
-/*HEADER*/
-
 .header-welcome-container{
     display: flex;
     justify-content: center;
 }
 
 .header-welcome{
-    transform: translate(25%,135%);
+    transform: translate(25%,135%);/*<!>*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,6 +236,10 @@ SECTION-INFO
 --------------------------------*/
 
 /*HEAD*/
+.section-info{
+    flex-wrap: wrap;
+}
+
 
 .section-info-para{
     font-size:125%;
@@ -236,13 +257,13 @@ SECTION-INFO
 .boxes{
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    flex-wrap: wrap;
+    width: 95%;
 }
 
 .box{
-    margin-top: 25px;
-    padding: 30px;
-
+    padding-top: 50px;
+    width: 23%;
 }
 
 .box-header{
@@ -250,7 +271,7 @@ SECTION-INFO
 }
 
 .box-img{
-    width: 20%;
+    width: 23%;
     height: auto;
 }
 
@@ -326,7 +347,6 @@ FOOTER
     justify-content: space-between;
     align-items: center;
     width: 85%;
-    overflow: hidden;
 }
 
 /*FOOTER-INFO*/
@@ -345,7 +365,6 @@ FOOTER
     color: #fff; 
     font-size: 85%;
 }
-
 
 .text-info-question{
     padding-left: 3px;
