@@ -1,8 +1,5 @@
 /*cool blue:#3498db*/
 /* edit all item with <!> sign*/
-/*-------------------------------
-PAGE-SETUP
---------------------------------*/
 
 *{
  padding: 0;
@@ -55,58 +52,6 @@ REUSABLE-STYLE
     height: 100vh;
 }
 
-/*LOGO*/
-
-.logo{
-    display: flex;
-    flex-direction:column; 
-    align-items: center;
-}
-
-.logo-design{
-    width: 85px;
-    height: auto;
-}
-
-.logo-text{
-    color: #fff;
-    font-weight: 700;
-    text-align:center;
-    margin-top: 10px;
-    font-size: 100%;
-}
-
-/*LINKS-BARS*/
-
-.nav-bar-list,
-.footer-icons-list{
-    list-style: none;
-}
-
-.nav-bar-list li,
-.footer-icons-list li{
-    display: inline-block;
-    margin-left: 35px;
-    font-size: 90%;
-}
-
-.nav-bar-list li:last-child,
-.footer-icons-list li:last-child{
-    margin-left:0;
-}
-
-.nav-bar-links{
-    color: #fff;
-    transition: 0.2s;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    padding: 8px;
-}
-
-.nav-bar-links:hover{
-    border-bottom: 2px solid #3498db;
-}
-
 /*BUTTONS*/
 
 .btn{
@@ -135,7 +80,7 @@ REUSABLE-STYLE
 }
 
 /*-------------------------------
-HEADER
+WELCOME-PAGE
 --------------------------------*/
 
 /*BURGER*/
@@ -166,6 +111,54 @@ HEADER
     align-items:center; 
 }
 
+/*LOGO*/
+
+.logo{
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+}
+
+.logo-design{
+    width: 85px;
+    height: auto;
+}
+
+.logo-text{
+    color: #fff;
+    font-weight: 700;
+    text-align:center;
+    margin-top: 10px;
+    font-size: 100%;
+}
+
+/*LINKS-BARS*/
+
+.nav-bar-list{
+    list-style: none;
+}
+
+.nav-bar-list li{
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 90%;
+}
+
+.nav-bar-list li:last-child{
+    margin-left:0;
+}
+
+.nav-bar-links{
+    color: #fff;
+    transition: 0.2s;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-bar-links:hover{
+    border-bottom: 2px solid #3498db;
+}
+
 
 /*HEADER-PAGE*/
 
@@ -182,7 +175,7 @@ HEADER
 }
 
 .header-welcome{
-    transform: translate(25%,135%);/*<!>*/
+    transform: translate(25%,135%);/*<!> */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,7 +190,7 @@ HEADER
 }
 
 /*-------------------------------
-SECTION-FEATURES
+SECTION-PICTURES
 --------------------------------*/
 
 .section-pictures{
@@ -276,7 +269,7 @@ SECTION-INFO
 }
 
 /*-------------------------------
-FORM-FEATURES
+SECTION-FORM
 --------------------------------*/
 
 .form-section-banner{
@@ -337,7 +330,7 @@ FOOTER
 --------------------------------*/
 
 .footer{
-    background-color: #333;
+    background-color: #202020;
 	display: flex;
     justify-content: center;
 }
@@ -347,6 +340,20 @@ FOOTER
     justify-content: space-between;
     align-items: center;
     width: 85%;
+}
+
+.footer-icons-list{
+    list-style: none;
+}
+
+.footer-icons-list li{
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 90%;
+}
+
+.footer-icons-list li:last-child{
+    margin-left:0;
 }
 
 /*FOOTER-INFO*/

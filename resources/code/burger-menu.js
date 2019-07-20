@@ -4,6 +4,7 @@ const slide = () => {
 
     burger.addEventListener("click", () => {
         nav.classList.toggle("burger-menu-active");
+        burger.classList.toggle("burger-move")
     })
 
 }
