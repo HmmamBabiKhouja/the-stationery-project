@@ -182,26 +182,26 @@ SECTION-INFO
     }    
 
 
+/*--------------------------------
+SECTION-FORM
+--------------------------------*/
+    
+    .form-container{
+        width: 95%;
+    }
+
 /*-------------------------------
 FOOTER
 --------------------------------*/
     
     .footer-container{
-        width:100%;
+        width:90%;
+        flex-direction: column;
     }
 
-    .text-info{
-        font-size: 55%
+    .footer-icons-list{
+        margin-bottom:20px;
     }
-    
-    .footer-icons-list li{
-        margin-left: 10px;
-    }
-
-    .social-icon{
-        font-size: 130%;
-    }
-
 
 }
 
@@ -211,7 +211,7 @@ FOOTER
 
 
 /*-------------------------------
-JS-RESPONSIVE
+JS-RESPONSIVE-ACTION
 --------------------------------*/  
 
 .burger-menu-active{
