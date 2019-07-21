@@ -103,6 +103,7 @@ WELCOME-PAGE
     z-index: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 60px;
     position: absolute; 
     top: -20px;
@@ -156,7 +157,7 @@ WELCOME-PAGE
 
 .nav{
     padding-top: 30px;
-    width: 93%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items:center; 
@@ -180,19 +181,23 @@ WELCOME-PAGE
     font-weight: 700;
     text-align:center;
     margin-top: 10px;
-    font-size: 100%;
+}
+    
+/*LINKS-BARS*/
+.nav-bar{
+    width: 60%;
+    margin-top: 55px;
 }
 
-/*LINKS-BARS*/
 
 .nav-bar-list{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-bar-list li{
-    display: inline-block;
     margin-left: 45px;
-    font-size: 90%;
 }
 
 .nav-bar-list li:last-child{
