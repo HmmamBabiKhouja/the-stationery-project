@@ -82,6 +82,57 @@ REUSABLE-STYLE
 /*-------------------------------
 WELCOME-PAGE
 --------------------------------*/
+/*DROPDOWN MENU*/
+
+.dropdown-block{
+    position: relative;
+}
+
+.dropdown-parent{
+    position: relative;
+}
+
+.dorpdown-parent > span{
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    /* border: 1px solid orange; */
+}
+
+.dorpdown-parent:hover .dropdown-list{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    position: absolute; 
+    top: -20px;
+    right: 0px; 
+}
+
+.dropdown-list{
+    display: none;
+}
+
+.dropdown-list > li{
+    /* border: 1px solid orange; */
+    /* the orange border thing is to fix the dropdown list position*/
+    list-style: none; 
+    margin:0 auto;
+}
+
+.dropdown-list > li:after{
+    content:"";
+    width: 70px;
+    height: 2px;
+    background-color: #3498db;
+    display: block;
+    margin: 5px auto;
+}
+
+.dropdown-list > li:last-of-type{
+    border-bottom:0; 
+}
+
 
 /*BURGER*/
 .burger-menu{
