@@ -88,6 +88,7 @@ WELCOME-PAGE
     position: relative;
     width: 100%;
     text-align: center;    
+    border: 1px solid #000; 
 }
 
 .dropdown-parent{
@@ -108,7 +109,6 @@ WELCOME-PAGE
     padding-top: 60px;
     position: absolute; 
     top: -20px;
-    right: -5px; 
 }
 
 .dropdown-list{
