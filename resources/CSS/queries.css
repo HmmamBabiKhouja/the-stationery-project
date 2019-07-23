@@ -1,15 +1,27 @@
 
 /*between 1200 and 1024*/
 @media only screen and (max-width:1200px){
-    .h2-with-after-line{
+    
+    .head2{
         padding-top: 45px;
+        font-size: 170%;
     }
 
+    .nav{
+        width: 93%;
+    }
+
+    .nav-bar{
+        width: 70%;
+    }
+    
     .box{
         padding-bottom: 30px;
     }
+    
 
 }
+
 
 @media only screen and (max-width:1023px){
 
@@ -17,11 +29,12 @@
     REUSABLE-STYLE
     --------------------------------*/
     
-    .h2-with-after-line{
+    .head2{
         padding-top: 35px;
+        font-size: 160%;
     }
     
-    .h2-with-after-line:after{
+    .head2:after{
         margin: 25px auto;
     }
     
@@ -30,12 +43,21 @@
         font-size: 140%;
     }
     
+
 /*-------------------------------
 WELCOME-PAGE
 --------------------------------*/ 
 
+    .nav{
+        width: 97%;
+    }
+
+    .nav-bar{
+        width: 75%;
+    }
+
     .logo-design{
-        width: 80px;
+        width: 72px;
         height: auto;
     }
     
@@ -47,9 +69,12 @@ WELCOME-PAGE
         transform: translate(0%,140%);
     }
 
-    .nav-bar-list >li{
-        font-size: 95%;
-        margin-left: 30px;
+    .nav-bar-links span{
+        font-size: 90%;
+    }
+
+    .dropdown-list{
+        display: none;
     }
 
 /*-------------------------------
@@ -174,6 +199,11 @@ SECTION-INFO
 
     .box{
         width: 95%;
+        text-align: center;
+    }
+
+    .box-header{
+        padding: 0 0 30px 0;
     }
 
     .box-img{

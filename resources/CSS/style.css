@@ -27,19 +27,11 @@ REUSABLE-STYLE
 .head2{
     font-weight: 300;
     font-size: 180%;
-}
-
-.head3{
-    font-weight: 300;
-    font-size: 150%;
-}
-
-.h2-with-after-line{
     text-align: center;
     padding-top: 60px;
 }
 
-.h2-with-after-line:after{
+.head2:after{
     content: "";
     width: 130px;
     height: 2px;
@@ -47,6 +39,12 @@ REUSABLE-STYLE
     display: block;
     margin: 40px auto;
 }
+
+.head3{
+    font-weight: 300;
+    font-size: 150%;
+}
+
 
 .full-height{
     height: 100vh;
@@ -88,7 +86,6 @@ WELCOME-PAGE
     position: relative;
     width: 100%;
     text-align: center;    
-    border: 1px solid #000; 
 }
 
 .dropdown-parent{
@@ -96,6 +93,7 @@ WELCOME-PAGE
 }
 
 .dorpdown-parent > span{
+    display:block;
     cursor: pointer;
     position: relative;
     z-index: 2;
@@ -105,7 +103,7 @@ WELCOME-PAGE
     z-index: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     padding-top: 60px;
     position: absolute; 
     top: -20px;
@@ -117,21 +115,22 @@ WELCOME-PAGE
 
 .dropdown-list > li{
     list-style: none; 
+    margin-bottom: 10px;
 }
 
-.dropdown-list > li:after{
+.dropdown-list > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropdown-list > li:last-of-type:after{
     content:"";
     width: 70px;
     height: 2px;
     background-color: #3498db;
     display: block;
-    margin: 5px auto;
+    margin: 10px auto;
 }
-
-.dropdown-list > li:last-of-type{
-    border-bottom:0; 
-}
-
 
 /*BURGER*/
 .burger-menu{
@@ -190,6 +189,7 @@ WELCOME-PAGE
     list-style: none;
     display: flex;
     justify-content: space-between;
+    width:100%;
 }
 
 .nav-bar-list >li{
@@ -233,7 +233,8 @@ WELCOME-PAGE
     color: #fff;
     font-size:200%;
     font-weight:300;
-}
+}            </div>
+
 
 /*-------------------------------
 SECTION-PICTURES
