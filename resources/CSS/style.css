@@ -92,14 +92,14 @@ WELCOME-PAGE
     position: relative;
 }
 
-.dorpdown-parent > span{
+.dropdown-parent > span{
     display:block;
     cursor: pointer;
     position: relative;
     z-index: 2;
 }
 
-.dorpdown-parent:hover .dropdown-list{
+.dropdown-parent:hover .dropdown-list{
     z-index: 1;
     display: flex;
     flex-direction: column;

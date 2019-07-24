@@ -1,3 +1,10 @@
+/*this should touch screens users to see the drop-list on nav section*/
+@media (hover: none) {
+    .dropdown-parent:hover .dropdown-list{
+        display: none;
+    }
+}
+
 
 /*between 1200 and 1024*/
 @media only screen and (max-width:1200px){
@@ -73,9 +80,6 @@ WELCOME-PAGE
         font-size: 90%;
     }
 
-    .dropdown-list{
-        display: none;
-    }
 
 /*-------------------------------
 SECTION-INFO
@@ -183,12 +187,19 @@ WELCOME-PAGE
         background:#202020;
     }
 
+    .nav-bar-links{
+        left: 55px;
+    }
+
     .burger-menu{/*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
         display: block;
         z-index: 2;
         transition: 0.8s;
     }
 
+    .dropdown-parent:hover .dropdown-list{
+        display: none;
+    }    
 /*-------------------------------
 SECTION-INFO
 --------------------------------*/    
