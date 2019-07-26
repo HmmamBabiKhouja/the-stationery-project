@@ -27,10 +27,6 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  body{
-    font-size: 
-  }
-
   /*-------------------------------
     REUSABLE-STYLE
     --------------------------------*/
@@ -109,11 +105,6 @@ SECTION-INFO
 SECTION-FORM
 --------------------------------*/
 
-  .form-section-banner,
-  .form {
-    width: 65%;
-  }
-
   /*-------------------------------
 FOOTER
 --------------------------------*/
@@ -136,11 +127,12 @@ FOOTER
 }
 
 @media only screen and (max-width: 767px) {
-  body {
+  html {
     overflow-x: hidden;
+    font-size: 18px;
   }
 
-/*-------------------------------
+  /*-------------------------------
 WELCOME-PAGE
 --------------------------------*/
 
@@ -252,6 +244,16 @@ FOOTER
 }
 
 @media only screen and (max-width: 479px) {
+  html {
+    overflow-x: hidden;
+    font-size: 17px;
+  }
+
+  .form-section-banner,
+  .form {
+    width: 90%;
+    padding: 30px;
+  }
 }
 
 /*-------------------------------
@@ -259,9 +261,8 @@ JS-RESPONSIVE-ACTION
 --------------------------------*/
 
 .burger-menu-active {
-  transform: translateX(
-    0%
-  ); /*when the burger menu is clicked the .burger-menu-active will be activated and the .nav-bar-list moves 100% from right to left to make the menu */
+  transform: translateX(0%);
+  /*when the burger menu is clicked the .burger-menu-active will be activated and the .nav-bar-list moves 100% from right to left to make the menu */
 }
 
 .burger-move {
