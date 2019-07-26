@@ -127,15 +127,15 @@ FOOTER
 }
 
 @media only screen and (max-width: 767px) {
-  
   html {
-    overflow-x: hidden;
     font-size: 18px;
+    overflow-x: hidden;
   }
 
   /*-------------------------------
 WELCOME-PAGE
 --------------------------------*/
+  
 
   .title-header {
     font-size: 160%;
@@ -168,10 +168,10 @@ WELCOME-PAGE
     justify-content: space-around;
     left: 0;
     top: 0;
-    height: 100%;
+    height: 100vh;
     transform: translateX(-100%);
     transition: 0.8s;
-    width: 50%;
+    width: 45%;
     z-index: 1;
     background: #202020;
   }
@@ -244,6 +244,19 @@ FOOTER
   }
 }
 
+/*-------------------------------
+JS-RESPONSIVE-ACTION
+--------------------------------*/
+
+.burger-menu-active {
+  transform: translateX(0%);
+  /*when the burger menu is clicked the .burger-menu-active will be activated and the .nav-bar-list moves 100% from right to left to make the menu */
+}
+
+.burger-move {
+  transform: translate(-50%); /*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
+}
+
 @media only screen and (max-width: 479px) {
   html {
     overflow-x: hidden;
@@ -255,19 +268,4 @@ FOOTER
     width: 90%;
     padding: 30px;
   }
-}
-
-/*-------------------------------
-JS-RESPONSIVE-ACTION
---------------------------------*/
-
-.burger-menu-active {
-  transform: translateX(0%);
-  /*when the burger menu is clicked the .burger-menu-active will be activated and the .nav-bar-list moves 100% from right to left to make the menu */
-}
-
-.burger-move {
-  transform: translate(
-    -50%
-  ); /*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
 }
