@@ -27,6 +27,10 @@
 }
 
 @media only screen and (max-width: 1023px) {
+  body{
+    font-size: 
+  }
+
   /*-------------------------------
     REUSABLE-STYLE
     --------------------------------*/
@@ -105,8 +109,9 @@ SECTION-INFO
 SECTION-FORM
 --------------------------------*/
 
-  .form-container {
-    width: 85%;
+  .form-section-banner,
+  .form {
+    width: 65%;
   }
 
   /*-------------------------------
@@ -135,7 +140,7 @@ FOOTER
     overflow-x: hidden;
   }
 
-  /*-------------------------------
+/*-------------------------------
 WELCOME-PAGE
 --------------------------------*/
 
@@ -227,9 +232,9 @@ SECTION-INFO
   /*--------------------------------
 SECTION-FORM
 --------------------------------*/
-
-  .form-container {
-    width: 95%;
+  .form-section-banner,
+  .form {
+    width: 90%;
   }
 
   /*-------------------------------

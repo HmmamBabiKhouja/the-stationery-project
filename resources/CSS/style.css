@@ -57,6 +57,7 @@ REUSABLE-STYLE
   text-decoration: none;
   border-radius: 50px;
   border: 1px solid #3498db;
+  cursor: pointer;
 }
 
 .btn-ghost {
@@ -316,58 +317,82 @@ SECTION-INFO
 /*-------------------------------
 SECTION-FORM
 --------------------------------*/
-
-.form-section-banner {
-  margin: 0 auto;
-}
-
-.form-container {
-  width: 75%;
-  margin: 0 auto;
+.form-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  color: #5d6063;
+  background-color: #eaedf0;
+  width: 100%;
 }
 
-.block {
+.form-section-banner,
+.form {
+  background-color: #f6f7f8;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 50%;
+  padding: 50px;
+}
+
+.form {
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.form-section-banner {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.form-section-banner h3 {
+  font-size: 30px;
+}
+
+.form-row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start; /* to avoid stretching I'm not using justify-content: center */
+  flex-wrap: wrap;
+  align-items: flex-start;
   margin-bottom: 20px;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row select,
+.form-row textarea {
+  background-color: #fff;
+  border: 1px solid #d6d9dc;
+  font-size: 16px;
   width: 100%;
 }
 
-.question {
-  flex: 1;
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  padding: 7px;
 }
 
-.answer {
-  flex: 2;
-  width: 100%;
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+  border: 1px solid #d55c5f;
+  color: #d55c5f;
+  box-shadow: none;
 }
 
-.user-input {
-  width: 100%;
+.form-row textarea {
+  font-size: 14px;
+  resize: none;
+  border: 1px solid #d6d9dc;
   border-radius: 3px;
-  border: 1px solid #ccc;
-  height: 100%;
-}
-
-.text-block {
-  padding: 1px 0;
-}
-
-.selection {
-  padding: 0.2px 0;
-}
-
-.feed-back {
-  height: 100px;
-  width: 100%;
-}
-
-.check-box-block {
-  padding: 9px 0;
-  margin-bottom: 15px 0;
+  min-height: 200px;
+  padding: 7px;
+  margin-bottom: 10px;
 }
 
 /*-------------------------------
