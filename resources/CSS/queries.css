@@ -1,277 +1,266 @@
 /*this should touch screens users to see the drop-list on nav section*/
 @media (hover: none) {
-    .showcase-img:hover{
-        transform: scale(1.20);
-        opacity: 0.7;
-    }
+  .showcase-img:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
 }
-
 
 /*between 1200 and 1024*/
-@media only screen and (max-width:1200px){
-    
-    .head2{
-        padding-top: 45px;
-        font-size: 170%;
-    }
+@media only screen and (max-width: 1200px) {
+  .head2 {
+    padding-top: 45px;
+    font-size: 170%;
+  }
 
-    .nav{
-        width: 93%;
-    }
+  .nav {
+    width: 93%;
+  }
 
-    .nav-bar{
-        width: 70%;
-    }
-    
-    .box{
-        padding-bottom: 30px;
-    }
-    
+  .nav-bar {
+    width: 70%;
+  }
 
+  .box {
+    padding-bottom: 30px;
+  }
 }
 
-
-@media only screen and (max-width:1023px){
-
-    /*-------------------------------
+@media only screen and (max-width: 1023px) {
+  /*-------------------------------
     REUSABLE-STYLE
     --------------------------------*/
-    
-    .head2{
-        padding-top: 35px;
-        font-size: 160%;
-    }
-    
-    .head2:after{
-        margin: 25px auto;
-    }
-    
-    .head3{
-        font-weight: 300;
-        font-size: 140%;
-    }
-    
 
-/*-------------------------------
+  .head2 {
+    padding-top: 35px;
+    font-size: 160%;
+  }
+
+  .head2:after {
+    margin: 25px auto;
+  }
+
+  .head3 {
+    font-weight: 300;
+    font-size: 140%;
+  }
+
+  /*-------------------------------
 WELCOME-PAGE
---------------------------------*/ 
+--------------------------------*/
 
-    .nav{
-        width: 97%;
-    }
+  .nav {
+    width: 97%;
+  }
 
-    .nav-bar{
-        width: 75%;
-    }
+  .nav-bar {
+    width: 75%;
+  }
 
-    .logo-design{
-        width: 72px;
-        height: auto;
-    }
-    
-    .logo-text{
-        font-size:90%; 
-    }
+  .logo-design {
+    width: 72px;
+    height: auto;
+  }
 
-    .header-welcome{
-        transform: translate(0%,140%);
-    }
+  .logo-text {
+    font-size: 90%;
+  }
 
-    .nav-bar-links span{
-        font-size: 90%;
-    }
+  .header-welcome {
+    transform: translate(0%, 140%);
+  }
 
+  .nav-bar-links span {
+    font-size: 90%;
+  }
 
-/*-------------------------------
+  /*-------------------------------
 SECTION-INFO
 --------------------------------*/
 
-    .section-info{
-        height: auto; /*edit this when customer supply you with content */
-    }
+  .section-info {
+    height: auto; /*edit this when customer supply you with content */
+  }
 
-    .section-info-para{
-        font-size:105%;
-        text-align: center;
-    }
+  .section-info-para {
+    font-size: 105%;
+    text-align: center;
+  }
 
-    .boxes{
-        width: 95%;
-    }
+  .boxes {
+    width: 95%;
+  }
 
-    .box{
-        padding-top: 30px;
-        padding-bottom: 0px;
-        width: 23%;
-    }   
+  .box {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    width: 23%;
+  }
 
-    .box:last-child{
-        padding-bottom: 30px;
-    }
+  .box:last-child {
+    padding-bottom: 30px;
+  }
 
-/*-------------------------------
+  /*-------------------------------
 SECTION-FORM
 --------------------------------*/
 
-    .form-container{
-        width: 85%;
-    }
+  .form-container {
+    width: 85%;
+  }
 
-/*-------------------------------
+  /*-------------------------------
 FOOTER
 --------------------------------*/
-    
-    .footer-container{
-        width:95%;
-    }
 
-    .text-info{
-        font-size: 80%
-    }
-    
-    .footer-icons-list li{
-        margin-left: 25px;
-    }
+  .footer-container {
+    width: 95%;
+  }
 
-    .social-icon{
-        font-size: 170%;
-    }
+  .text-info {
+    font-size: 80%;
+  }
 
+  .footer-icons-list li {
+    margin-left: 25px;
+  }
+
+  .social-icon {
+    font-size: 170%;
+  }
 }
 
-@media only screen and (max-width:767px){
-    
-    body{
-        overflow-x: hidden;
-    }
+@media only screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
 
-/*-------------------------------
+  /*-------------------------------
 WELCOME-PAGE
---------------------------------*/    
-    
-    .title-header{
-        font-size:160%;
-    }
-    
-    .header-welcome{
-        transform: translate(0%,140%);
-        align-items: center;
-    }
+--------------------------------*/
 
-    .nav{
-        width:85% ;
-    }
-    
-    .logo-design{
-        width: 75px;
-        height: auto;
-    }
+  .title-header {
+    font-size: 160%;
+  }
 
-    .logo-text{
-        font-size:90%; 
-    }
+  .header-welcome {
+    transform: translate(0%, 140%);
+    align-items: center;
+  }
 
-    .nav-bar-list{
-        padding-right:30px;     
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        left: 0;
-        top: 0;
-        height: 100%;
-        transform: translateX(-100%);
-        transition: 0.8s;
-        width: 50%;
-        z-index: 1;
-        background:#202020;
-    }
+  .nav {
+    width: 85%;
+  }
 
-    .nav-bar-links{
-        left: 55px;
-    }
+  .logo-design {
+    width: 75px;
+    height: auto;
+  }
 
-    .burger-menu{/*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
-        display: block;
-        z-index: 2;
-        transition: 0.8s;
-    }
+  .logo-text {
+    font-size: 90%;
+  }
 
-    .dropdown-parent:hover .dropdown-list{
-        display: none;
-    }    
+  .nav-bar-list {
+    padding-right: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    left: 0;
+    top: 0;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: 0.8s;
+    width: 50%;
+    z-index: 1;
+    background: #202020;
+  }
 
-/*-------------------------------
+  .nav-bar-links {
+    left: 55px;
+  }
+
+  .burger-menu {
+    /*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
+    display: block;
+    z-index: 2;
+    transition: 0.8s;
+  }
+
+  .dropdown-parent:hover .dropdown-list {
+    display: none;
+  }
+
+  /*-------------------------------
 SECTION-PICTURES
 --------------------------------*/
 
-    .showcase-img:hover{
-        transform: scale(1.20);
-        opacity: 0.7;
-    }
+  .showcase-img:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
 
-
-    /*-------------------------------
+  /*-------------------------------
 SECTION-INFO
---------------------------------*/    
+--------------------------------*/
 
-    .section-info{
-        height: auto; /*edit this when customer supply you with content */
-    }
+  .section-info {
+    height: auto; /*edit this when customer supply you with content */
+  }
 
-    .box{
-        width: 95%;
-        text-align: center;
-    }
+  .box {
+    width: 95%;
+    text-align: center;
+  }
 
-    .box-header{
-        padding: 0 0 30px 0;
-    }
+  .box-header {
+    padding: 0 0 30px 0;
+  }
 
-    .box-img{
-        width: 15%;
-        height: auto;
-    }    
+  .box-img {
+    width: 15%;
+    height: auto;
+  }
 
-/*--------------------------------
+  /*--------------------------------
 SECTION-FORM
 --------------------------------*/
-    
-    .form-container{
-        width: 95%;
-    }
 
-/*-------------------------------
+  .form-container {
+    width: 95%;
+  }
+
+  /*-------------------------------
 FOOTER
 --------------------------------*/
-    
-    .footer-container{
-        width:90%;
-        flex-direction: column;
-    }
 
-    .footer-icons-list{
-        margin-bottom:20px;
-    }
+  .footer-container {
+    width: 90%;
+    flex-direction: column;
+  }
 
+  .footer-icons-list {
+    margin-bottom: 20px;
+  }
 }
 
-@media only screen and (max-width:479px){
-
+@media only screen and (max-width: 479px) {
 }
-
-
-
 
 /*-------------------------------
 JS-RESPONSIVE-ACTION
---------------------------------*/  
+--------------------------------*/
 
-.burger-menu-active{
-    transform: translateX(0%);/*when the burger menu is clicked the .burger-menu-active will be activated and the .nav-bar-list moves 100% from right to left to make the menu */
+.burger-menu-active {
+  transform: translateX(
+    0%
+  ); /*when the burger menu is clicked the .burger-menu-active will be activated and the .nav-bar-list moves 100% from right to left to make the menu */
 }
 
-.burger-move{
-    transform: translate(-50%);/*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
+.burger-move {
+  transform: translate(
+    -50%
+  ); /*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
 }
