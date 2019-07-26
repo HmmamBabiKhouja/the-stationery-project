@@ -1,7 +1,8 @@
 /*this should touch screens users to see the drop-list on nav section*/
 @media (hover: none) {
-    .dropdown-parent:hover .dropdown-list{
-        display: none;
+    .showcase-img:hover{
+        transform: scale(1.20);
+        opacity: 0.7;
     }
 }
 
@@ -200,7 +201,18 @@ WELCOME-PAGE
     .dropdown-parent:hover .dropdown-list{
         display: none;
     }    
+
 /*-------------------------------
+SECTION-PICTURES
+--------------------------------*/
+
+    .showcase-img:hover{
+        transform: scale(1.20);
+        opacity: 0.7;
+    }
+
+
+    /*-------------------------------
 SECTION-INFO
 --------------------------------*/    
 
@@ -221,7 +233,6 @@ SECTION-INFO
         width: 15%;
         height: auto;
     }    
-
 
 /*--------------------------------
 SECTION-FORM
@@ -249,6 +260,8 @@ FOOTER
 @media only screen and (max-width:479px){
 
 }
+
+
 
 
 /*-------------------------------
