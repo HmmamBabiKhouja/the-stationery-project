@@ -137,7 +137,6 @@ FOOTER
 WELCOME-PAGE
 --------------------------------*/
 
-
   .title-header {
     font-size: 160%;
   }
@@ -166,7 +165,7 @@ WELCOME-PAGE
     left: 0;
      height: 100vh;
     width: 45%; 
-  }*/
+  }<!>*/
 
   .nav-bar-list {
     padding-right: 30px;
@@ -212,23 +211,21 @@ SECTION-PICTURES
   /*-------------------------------
 SECTION-INFO
 --------------------------------*/
-
-  .section-info {
-    height: auto; /*edit this when customer supply you with content */
+  .info-banner{
+    width: 90%;
   }
 
   .box {
-    width: 95%;
+    width: 90%;
     text-align: center;
   }
 
-  .box-header {
-    padding: 0 0 30px 0;
+  .box h3 {
+    padding: 15px 0 35px 0;
   }
 
-  .box-img {
-    width: 15%;
-    height: auto;
+  .info-icon {
+    font-size: 550%;
   }
 
   /*--------------------------------
@@ -263,7 +260,9 @@ JS-RESPONSIVE-ACTION
 }
 
 .burger-move {
-  transform: translate(-50%); /*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
+  transform: translate(
+    -50%
+  ); /*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
 }
 
 @media only screen and (max-width: 479px) {

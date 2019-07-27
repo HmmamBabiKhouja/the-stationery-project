@@ -279,6 +279,8 @@ SECTION-INFO
 /*HEAD*/
 .section-info {
   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
 
 .section-info-para {
@@ -310,9 +312,9 @@ SECTION-INFO
   padding: 10px 0;
 }
 
-.box-img {
-  width: 23%;
-  height: auto;
+.info-icon{
+  font-size: 300%;
+  color: #3498db;
 }
 
 /*-------------------------------
