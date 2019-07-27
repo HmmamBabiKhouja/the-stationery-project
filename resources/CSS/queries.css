@@ -57,8 +57,8 @@ WELCOME-PAGE
     width: 75%;
   }
 
-  .logo{
-    margin-right:12px; 
+  .logo {
+    margin-right: 12px;
   }
 
   .logo-design {
@@ -131,7 +131,6 @@ FOOTER
 }
 
 @media only screen and (max-width: 767px) {
-  
   body {
     font-size: 18px;
     overflow-x: hidden;
@@ -172,11 +171,9 @@ WELCOME-PAGE
   }<!>*/
 
   .nav-bar-list {
-    padding-right: 30px;
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-around;
     top: 0;
     left: 0;
@@ -189,6 +186,8 @@ WELCOME-PAGE
   }
 
   .nav-bar-links {
+    text-align: right;
+    padding-right: 30px;
   }
 
   .burger-menu {
@@ -214,7 +213,7 @@ SECTION-PICTURES
   /*-------------------------------
 SECTION-INFO
 --------------------------------*/
-  .info-banner{
+  .info-banner {
     width: 90%;
   }
 

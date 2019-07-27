@@ -220,6 +220,7 @@ WELCOME-PAGE
 .header-welcome-container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .header-welcome {
@@ -227,6 +228,7 @@ WELCOME-PAGE
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 90%;
 }
 
 .title-header {
