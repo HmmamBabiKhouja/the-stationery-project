@@ -448,9 +448,11 @@ FOOTER
 }
 
 /*FOOTER-ICONS*/
-
-.social-icon {
-  color: #888;
+.social-icon,
+.social-icon:checked,
+.social-icon:active,
+.social-icon:visited {
+color: #888;
   transition: 0.4s;
   font-size: 200%;
 }
@@ -465,10 +467,6 @@ FOOTER
 
 .instagram-logo-icon:hover {
   color: #e4405f;
-}
-
-.call-logo-icon:hover {
-  color: #ddd;
 }
 
 .locate-logo-icon:hover {
