@@ -238,8 +238,8 @@ WELCOME-PAGE
   margin-top: 0;
   margin-bottom: 30px;
   color: #fff;
-  font-size: 200%;
   font-weight: 300;
+  text-align: center;
 }
 
 /*-------------------------------
@@ -249,16 +249,11 @@ SECTION-PICTURES
 .section-pictures {
   width: 100%;
   display: flex;
-  flex-direction: column;
-}
-
-.showcase-image-block {
-  display: flex;
-  width: 100%;
+  flex-wrap: wrap;
 }
 
 .showcase-figure {
-  width: 100%;
+  width: 25%;
   overflow: hidden;
   background: #000;
   margin: 0;

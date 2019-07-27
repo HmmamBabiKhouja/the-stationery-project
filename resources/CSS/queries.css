@@ -10,7 +10,6 @@
 @media only screen and (max-width: 1200px) {
   .head2 {
     padding-top: 45px;
-    font-size: 170%;
   }
 
   .nav {
@@ -27,13 +26,19 @@
 }
 
 @media only screen and (max-width: 1023px) {
+  
+  body {
+    font-size: 16px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   /*-------------------------------
     REUSABLE-STYLE
     --------------------------------*/
 
   .head2 {
     padding-top: 35px;
-    font-size: 160%;
   }
 
   .head2:after {
@@ -83,7 +88,7 @@ SECTION-INFO
   }
 
   .section-info-para {
-    font-size: 105%;
+    font-size: 120%;
     text-align: center;
   }
 
@@ -128,18 +133,17 @@ FOOTER
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 18px;
-    overflow-x: hidden;
-    width: 100%;
+    font-size: 16px;
   }
 
   /*-------------------------------
 WELCOME-PAGE
 --------------------------------*/
-
-  .title-header {
-    font-size: 145%;
+  .title-header,
+  .head2 {
+    font-size: 150%;
   }
+
 
 
   .nav {
@@ -197,12 +201,19 @@ WELCOME-PAGE
   /*-------------------------------
 SECTION-PICTURES
 --------------------------------*/
+.showcase-figure {
+  width: 50%;
+}
 
-  .showcase-img:hover {
-    transform: scale(1.2);
-    opacity: 0.7;
-  }
+.showcase-img:hover {
+  transform: scale(1.2);
+  opacity: 0.3;
+}
 
+.showcase-img:hover {
+  transform: scale(1.2);
+  opacity: 0.3;
+}
   /*-------------------------------
 SECTION-INFO
 --------------------------------*/
@@ -238,6 +249,11 @@ FOOTER
   .footer-container {
     width: 90%;
     flex-direction: column;
+    text-align: center;
+  }
+
+  .text-info{
+    margin-bottom: 5px;
   }
 
   .footer-icons-list {
@@ -260,10 +276,10 @@ JS-RESPONSIVE-ACTION
   ); /*when the burger menu is clicked the .burger-move will to left to not overlap with .nav-bar-list content */
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 425px) {
   html {
     overflow-x: hidden;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .form-section-banner,
