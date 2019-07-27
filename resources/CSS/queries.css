@@ -28,7 +28,7 @@
 @media only screen and (max-width: 1023px) {
   
   body {
-    font-size: 16px;
+    font-size: 18px;
     overflow-x: hidden;
     width: 100%;
   }
@@ -62,13 +62,10 @@ WELCOME-PAGE
     width: 75%;
   }
 
-  .logo {
-    margin-right: 12px;
-  }
-
   .logo-design {
     width: 72px;
     height: auto;
+    margin: 0 12px;
   }
 
   .logo-text {
@@ -114,12 +111,13 @@ SECTION-FORM
 FOOTER
 --------------------------------*/
 
-  .footer-container {
-    width: 95%;
+  .footer-info {
+    width: 50%;
   }
 
   .text-info {
     font-size: 80%;
+    line-height: 150%;
   }
 
   .footer-icons-list li {
@@ -144,28 +142,19 @@ WELCOME-PAGE
     font-size: 150%;
   }
 
-
-
   .nav {
     width: 85%;
   }
 
   .logo-design {
-    width: 75px;
+    width: 64px;
     height: auto;
+    margin: 0 10px;
   }
 
   .logo-text {
-    font-size: 90%;
+    font-size: 110%;
   }
-
-  /*.nav-bar{
-    position: relative;
-    top: 0;
-    left: 0;
-     height: 100vh;
-    width: 45%; 
-  }<!>*/
 
   .nav-bar-list {
     position: absolute;
@@ -179,7 +168,7 @@ WELCOME-PAGE
     z-index: 1;
     background: #202020;
     height: 100vh;
-    width: 45%;
+    width: 50%;
   }
 
   .nav-bar-links {
