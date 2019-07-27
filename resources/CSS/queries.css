@@ -141,9 +141,6 @@ WELCOME-PAGE
     font-size: 145%;
   }
 
-  .header-welcome {
-    align-items: center;
-  }
 
   .nav {
     width: 85%;
@@ -266,7 +263,7 @@ JS-RESPONSIVE-ACTION
 @media only screen and (max-width: 479px) {
   html {
     overflow-x: hidden;
-    font-size: 17px;
+    font-size: 10px;
   }
 
   .form-section-banner,
