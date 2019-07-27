@@ -57,6 +57,10 @@ WELCOME-PAGE
     width: 75%;
   }
 
+  .logo{
+    margin-right:12px; 
+  }
+
   .logo-design {
     width: 72px;
     height: auto;
@@ -127,6 +131,7 @@ FOOTER
 }
 
 @media only screen and (max-width: 767px) {
+  
   body {
     font-size: 18px;
     overflow-x: hidden;
@@ -142,7 +147,6 @@ WELCOME-PAGE
   }
 
   .header-welcome {
-    transform: translate(0%, 140%);
     align-items: center;
   }
 
@@ -185,7 +189,6 @@ WELCOME-PAGE
   }
 
   .nav-bar-links {
-    left: 55px;
   }
 
   .burger-menu {

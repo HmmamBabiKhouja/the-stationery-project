@@ -451,8 +451,10 @@ FOOTER
 .social-icon,
 .social-icon:checked,
 .social-icon:active,
-.social-icon:visited {
-color: #888;
+.social-icon:visited,
+.social-icon:focus,
+.social-icon:target{
+  color: #888;
   transition: 0.4s;
   font-size: 200%;
 }
