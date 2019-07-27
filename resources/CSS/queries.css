@@ -269,11 +269,5 @@ JS-RESPONSIVE-ACTION
   html {
     overflow-x: hidden;
     font-size: 14px;
-  }
-
-  .form-section-banner,
-  .form {
-    width: 90%;
-    padding: 30px;
-  }
+  } 
 }

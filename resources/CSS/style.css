@@ -383,7 +383,6 @@ SECTION-FORM
 }
 
 .form-row textarea {
-  font-size: 16px;
   resize: none;
   border: 1px solid #d6d9dc;
   border-radius: 3px;
@@ -448,12 +447,7 @@ FOOTER
 }
 
 /*FOOTER-ICONS*/
-.social-icon,
-.social-icon:checked,
-.social-icon:active,
-.social-icon:visited,
-.social-icon:focus,
-.social-icon:target{
+.social-icon{
   color: #888;
   transition: 0.4s;
   font-size: 200%;
