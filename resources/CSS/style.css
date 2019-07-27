@@ -214,20 +214,23 @@ WELCOME-PAGE
     url("../img/plush-design-studio-676630-unsplash.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;/*<!> */
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-welcome-container {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: auto;
+  margin-top: 150px;
 }
 
 .header-welcome {
-  transform: translate(25%, 135%); /*<!> */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   width: 90%;
 }
 

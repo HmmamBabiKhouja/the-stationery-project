@@ -70,10 +70,6 @@ WELCOME-PAGE
     font-size: 90%;
   }
 
-  .header-welcome {
-    transform: translate(0%, 140%);
-  }
-
   .nav-bar-links span {
     font-size: 90%;
   }
@@ -142,7 +138,7 @@ WELCOME-PAGE
 --------------------------------*/
 
   .title-header {
-    font-size: 160%;
+    font-size: 145%;
   }
 
   .header-welcome {
