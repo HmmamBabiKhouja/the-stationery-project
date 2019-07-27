@@ -205,15 +205,15 @@ SECTION-PICTURES
   width: 50%;
 }
 
-.showcase-img:hover {
-  transform: scale(1.2);
-  opacity: 0.3;
+.showcase-img {
+  opacity:1;
 }
 
 .showcase-img:hover {
   transform: scale(1.2);
-  opacity: 0.3;
+  opacity:1;
 }
+
   /*-------------------------------
 SECTION-INFO
 --------------------------------*/
