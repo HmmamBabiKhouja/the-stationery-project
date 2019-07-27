@@ -214,7 +214,7 @@ WELCOME-PAGE
     url("../img/plush-design-studio-676630-unsplash.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed;/*<!> */
 }
 
 .header-welcome-container {
